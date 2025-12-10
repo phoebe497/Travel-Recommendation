@@ -1,0 +1,409 @@
+{
+  "destination": "Seoul",
+  "duration_days": 2,
+  "user_preferences": {
+    "interests": [
+      "accommodation",
+      "food",
+      "landmarks",
+      "culture"
+    ],
+    "budget_range": "medium",
+    "travel_party": "solo",
+    "accommodation_type": "hotel"
+  },
+  "daily_itineraries": [
+    {
+      "day_number": 1,
+      "date": "2025-12-05",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": [
+            {
+              "place_id": "ChIJR8mUTfCifDURs3llr5Y23lw",
+              "name": "엉터리생고기 무한리필 명동점 Ungteori Myeongdong Korean BBQ Restaurant | All you can eat | BUFFET | kbbq | 明洞 サムギョプサル 明洞美食 明洞五花肉 l AYCE",
+              "rating": 4.8,
+              "avg_price_usd": 20.0,
+              "arrival_time": "07:00",
+              "departure_time": "07:45",
+              "visit_duration_hours": 0.75,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.34,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJO80fT8ejfDUR766wPU5drXc",
+              "name": "Lotte Hotel Seoul Executive Tower",
+              "rating": 4.9,
+              "avg_price_usd": 27.0,
+              "arrival_time": "08:04",
+              "departure_time": "09:04",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.88,
+                "cost_usd": 1.95
+              }
+            },
+            {
+              "place_id": "ChIJQyoEXiaifDURTA2CNaCIUA4",
+              "name": "Yongsan Family Park",
+              "rating": 4.6,
+              "avg_price_usd": 6.0,
+              "arrival_time": "09:12",
+              "departure_time": "10:12",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 6.84,
+                "cost_usd": 2.74
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJEaoOcgCjfDURrT5fyiOPnOQ",
+              "name": "Babylon restaurant Seoul",
+              "rating": 4.8,
+              "avg_price_usd": 13.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.25,
+                "cost_usd": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": [
+            {
+              "place_id": "ChIJY_LTQgCjfDUR7QUVorXen4g",
+              "name": "Myeongdong Joomak",
+              "rating": 4.8,
+              "avg_price_usd": 13.0,
+              "arrival_time": "13:03",
+              "departure_time": "14:18",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.17,
+                "cost_usd": 0.0
+              }
+            },
+            {
+              "place_id": "ChIJgcs2nlujfDURZe-3Vni6FcE",
+              "name": "Myeongdong Korean BBQ restaurant Beef All You Can Eat Mongvely",
+              "rating": 4.8,
+              "avg_price_usd": 5.0,
+              "arrival_time": "14:20",
+              "departure_time": "15:35",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.63,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJ47W7oOSjfDURQoEcbb8t77I",
+              "name": "양인환대 북창 مطعم حلال City Hall Halal Korean bbq Restaurant وجبات حلال",
+              "rating": 5.0,
+              "avg_price_usd": 14.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 5.03,
+                "cost_usd": 2.01
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJeTTrvI6ZfDURUj3EVtdv_hY",
+              "name": "Hangong-Gan",
+              "rating": 5.0,
+              "avg_price_usd": 11.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 5.39,
+                "cost_usd": 2.16
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJO80fT8ejfDUR766wPU5drXc",
+              "name": "Lotte Hotel Seoul Executive Tower",
+              "rating": 4.9,
+              "avg_price_usd": 27.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 9,
+        "transport_cost_usd": 5.59,
+        "total_cost_usd": 5.59
+      }
+    },
+    {
+      "day_number": 2,
+      "date": "2025-12-06",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": [
+            {
+              "place_id": "ChIJLwsYxYijfDURiJD-QZw6MYU",
+              "name": "Jungsik Seoul",
+              "rating": 4.4,
+              "avg_price_usd": 288.0,
+              "arrival_time": "07:00",
+              "departure_time": "07:45",
+              "visit_duration_hours": 0.75,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 6.84,
+                "cost_usd": 2.74
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJO80fT8ejfDUR766wPU5drXc",
+              "name": "Lotte Hotel Seoul Executive Tower",
+              "rating": 4.9,
+              "avg_price_usd": 27.0,
+              "arrival_time": "08:12",
+              "departure_time": "09:12",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.88,
+                "cost_usd": 1.95
+              }
+            },
+            {
+              "place_id": "ChIJQyoEXiaifDURTA2CNaCIUA4",
+              "name": "Yongsan Family Park",
+              "rating": 4.6,
+              "avg_price_usd": 6.0,
+              "arrival_time": "09:20",
+              "departure_time": "10:20",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.62,
+                "cost_usd": 1.85
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJR8mUTfCifDURs3llr5Y23lw",
+              "name": "엉터리생고기 무한리필 명동점 Ungteori Myeongdong Korean BBQ Restaurant | All you can eat | BUFFET | kbbq | 明洞 サムギョプサル 明洞美食 明洞五花肉 l AYCE",
+              "rating": 4.8,
+              "avg_price_usd": 20.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.23,
+                "cost_usd": 0.89
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": [
+            {
+              "place_id": "ChIJEaoOcgCjfDURrT5fyiOPnOQ",
+              "name": "Babylon restaurant Seoul",
+              "rating": 4.8,
+              "avg_price_usd": 13.0,
+              "arrival_time": "13:03",
+              "departure_time": "14:18",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 5.6,
+                "cost_usd": 2.24
+              }
+            },
+            {
+              "place_id": "ChIJnbqVZSSjfDURXy6xhCsHEN8",
+              "name": "bogwangjung",
+              "rating": 4.9,
+              "avg_price_usd": 7.0,
+              "arrival_time": "14:28",
+              "departure_time": "15:43",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.6,
+                "cost_usd": 1.44
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJ47W7oOSjfDURQoEcbb8t77I",
+              "name": "양인환대 북창 مطعم حلال City Hall Halal Korean bbq Restaurant وجبات حلال",
+              "rating": 5.0,
+              "avg_price_usd": 14.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 5.03,
+                "cost_usd": 2.01
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJeTTrvI6ZfDURUj3EVtdv_hY",
+              "name": "Hangong-Gan",
+              "rating": 5.0,
+              "avg_price_usd": 11.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 5.39,
+                "cost_usd": 2.16
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJO80fT8ejfDUR766wPU5drXc",
+              "name": "Lotte Hotel Seoul Executive Tower",
+              "rating": 4.9,
+              "avg_price_usd": 27.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 9,
+        "transport_cost_usd": 13.85,
+        "total_cost_usd": 13.85
+      }
+    }
+  ],
+  "summary": {
+    "total_days": 2,
+    "total_places": 18,
+    "total_cost_usd": 19.44
+  },
+  "created_at": "2025-12-05T04:26:09.924934",
+  "timeblock_configuration": {
+    "timeblocks": {
+      "meals": {
+        "breakfast": {
+          "start": "07:00",
+          "end": "08:00"
+        },
+        "lunch": {
+          "start": "11:00",
+          "end": "13:00"
+        },
+        "dinner": {
+          "start": "18:30",
+          "end": "20:30"
+        }
+      },
+      "activities": {
+        "morning": {
+          "start": "08:00",
+          "end": "11:00"
+        },
+        "afternoon": {
+          "start": "13:00",
+          "end": "18:30"
+        },
+        "evening": {
+          "start": "20:30",
+          "end": "22:00"
+        }
+      },
+      "rest": {
+        "hotel": {
+          "start": "22:00",
+          "end": "07:00"
+        }
+      }
+    }
+  }
+}

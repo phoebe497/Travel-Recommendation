@@ -1,0 +1,426 @@
+{
+  "tour_id": "hanoi_tour_f30dcf05",
+  "destination": "Hanoi",
+  "duration_days": 3,
+  "user_preferences": {
+    "destination_city": "Hanoi",
+    "trip_duration_days": 3,
+    "budget_range": "medium",
+    "interests": [
+      "lodging",
+      "restaurant",
+      "tourist_attraction"
+    ],
+    "travel_party": "solo"
+  },
+  "itinerary": [
+    {
+      "day_number": 1,
+      "date": "2025-11-27",
+      "places": [
+        {
+          "place_id": "ChIJSUAxoJyrNTERIKrXQVu7e3k",
+          "name": "Hanoi Walking",
+          "start_time": "08:00",
+          "duration_hours": 1.5,
+          "time_block": "morning",
+          "types": [
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 5.0,
+          "score": 10.6,
+          "transport_to_next": "bike",
+          "distance_to_next_km": 1.91,
+          "travel_time_hours": 0.13
+        },
+        {
+          "place_id": "ChIJK0HXl0urNTEROaDNOk9AogI",
+          "name": "MIAs restaurant",
+          "start_time": "11:07",
+          "duration_hours": 1.0,
+          "time_block": "lunch",
+          "types": [
+            "vietnamese_restaurant",
+            "diner",
+            "asian_restaurant",
+            "vegan_restaurant",
+            "vegetarian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9,
+          "score": 0.942,
+          "transport_to_next": "bike",
+          "distance_to_next_km": 4.19,
+          "travel_time_hours": 0.28
+        },
+        {
+          "place_id": "ChIJi3I61wSsNTEREPGWbUmEBoY",
+          "name": "VinKE & Thủy cung Times City",
+          "start_time": "12:23",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "aquarium",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7,
+          "score": 10.558,
+          "transport_to_next": "bike",
+          "distance_to_next_km": 4.57,
+          "travel_time_hours": 0.3
+        },
+        {
+          "place_id": "ChIJp0o4Er6rNTERjlTif_IXU1k",
+          "name": "Hanoi Old Quarter",
+          "start_time": "14:11",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "historical_landmark",
+            "historical_place",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6,
+          "score": 10.545,
+          "transport_to_next": "bike",
+          "distance_to_next_km": 1.87,
+          "travel_time_hours": 0.12
+        },
+        {
+          "place_id": "ChIJg7gIaImjQTERQjXdxTkooV8",
+          "name": "Hồ Thuỷ Tiên",
+          "start_time": "15:48",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6,
+          "score": 10.545,
+          "transport_to_next": "bike",
+          "distance_to_next_km": 1.54,
+          "travel_time_hours": 0.1
+        },
+        {
+          "place_id": "ChIJXROtYr6rNTERRKeVXUeNGUY",
+          "name": "Hong Hoai's Restaurant",
+          "start_time": "19:06",
+          "duration_hours": 1.0,
+          "time_block": "dinner",
+          "types": [
+            "vietnamese_restaurant",
+            "vegan_restaurant",
+            "vegetarian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9,
+          "score": 0.949,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.49,
+          "travel_time_hours": 0.1
+        },
+        {
+          "place_id": "ChIJvRjrg6arNTERTp-fhVwKIw8",
+          "name": "La Mejor Hotel & Sky Bar",
+          "start_time": "22:00",
+          "duration_hours": 10,
+          "time_block": "night",
+          "types": [
+            "hotel",
+            "lodging",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9,
+          "score": 0.5
+        }
+      ],
+      "total_distance_km": 14.57,
+      "estimated_cost": 127.04
+    },
+    {
+      "day_number": 2,
+      "date": "2025-11-28",
+      "places": [
+        {
+          "place_id": "ChIJR9N2oKKrNTERNIq8JANqEic",
+          "name": "Statue of Lenin",
+          "start_time": "08:00",
+          "duration_hours": 1.5,
+          "time_block": "morning",
+          "types": [
+            "sculpture",
+            "historical_landmark",
+            "tourist_attraction",
+            "historical_place",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5,
+          "score": 10.531,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.28,
+          "travel_time_hours": 0.06
+        },
+        {
+          "place_id": "ChIJ0WjcZr-rNTERV74gECnJzig",
+          "name": "Essence Restaurant Original (since 2011)",
+          "start_time": "11:03",
+          "duration_hours": 1.0,
+          "time_block": "lunch",
+          "types": [
+            "restaurant",
+            "cafe",
+            "wedding_venue",
+            "bar",
+            "event_venue",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8,
+          "score": 0.943,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.82,
+          "travel_time_hours": 0.16
+        },
+        {
+          "place_id": "ChIJb84HLb-rNTERHlS-hFuXkwk",
+          "name": "Ha Giang Loop Tour",
+          "start_time": "12:12",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9,
+          "score": 0.931,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.62,
+          "travel_time_hours": 0.12
+        },
+        {
+          "place_id": "ChIJm3YS_eqrNTERUWy7787s8sc",
+          "name": "Sword Lake Octagon House",
+          "start_time": "13:49",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "sports_club",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6,
+          "score": 0.883,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.47,
+          "travel_time_hours": 0.09
+        },
+        {
+          "place_id": "ChIJccun9eurNTERtKVn44HT8Ig",
+          "name": "Square of August Revolution",
+          "start_time": "15:24",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6,
+          "score": 0.892,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 1.14,
+          "travel_time_hours": 0.23
+        },
+        {
+          "place_id": "ChIJW9J_bwCrNTER7Z8_0B2Esak",
+          "name": "Hello Hanoi Restaurant Vietnamese Cuisine & Vegetarian food",
+          "start_time": "19:13",
+          "duration_hours": 1.0,
+          "time_block": "dinner",
+          "types": [
+            "vietnamese_restaurant",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9,
+          "score": 0.912,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.56,
+          "travel_time_hours": 0.11
+        },
+        {
+          "place_id": "ChIJTa1twJWrNTERCuG6jEYpWHk",
+          "name": "Luxury Backpackers Hotel",
+          "start_time": "22:00",
+          "duration_hours": 10,
+          "time_block": "night",
+          "types": [
+            "hotel",
+            "lodging",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5,
+          "score": 0.5
+        }
+      ],
+      "total_distance_km": 3.89,
+      "estimated_cost": 120.0
+    },
+    {
+      "day_number": 3,
+      "date": "2025-11-29",
+      "places": [
+        {
+          "place_id": "ChIJ87NZ0GqrNTERFlxiMWBA2pQ",
+          "name": "Weekend Walking Street",
+          "start_time": "08:00",
+          "duration_hours": 1.5,
+          "time_block": "morning",
+          "types": [
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5,
+          "score": 0.9,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.18,
+          "travel_time_hours": 0.04
+        },
+        {
+          "place_id": "ChIJ-1QLwSirNTERpOu0HJtJ40A",
+          "name": "MẸT Vietnamese restaurant & Vegetarian Met 4",
+          "start_time": "11:02",
+          "duration_hours": 1.0,
+          "time_block": "lunch",
+          "types": [
+            "vietnamese_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9,
+          "score": 0.969,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.17,
+          "travel_time_hours": 0.03
+        },
+        {
+          "place_id": "ChIJd64Vx8CrNTERulxZIacQ3Bg",
+          "name": "Ta Hien Beer Street",
+          "start_time": "12:04",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "hiking_area",
+            "park",
+            "sports_activity_location",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.3,
+          "score": 0.85,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.02,
+          "travel_time_hours": 0.0
+        },
+        {
+          "place_id": "ChIJWevFvdWrNTERhJaL7Y7fnj8",
+          "name": "International Intersection",
+          "start_time": "13:34",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.2,
+          "score": 0.839,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.85,
+          "travel_time_hours": 0.17
+        },
+        {
+          "place_id": "ChIJtyC7RkOrNTER74k3wfuut_g",
+          "name": "Hanoi Train Street",
+          "start_time": "15:14",
+          "duration_hours": 1.5,
+          "time_block": "late_afternoon",
+          "types": [
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.4,
+          "score": 0.829,
+          "transport_to_next": "walking",
+          "distance_to_next_km": 0.18,
+          "travel_time_hours": 0.04
+        },
+        {
+          "place_id": "ChIJcXwY2LWrNTER7AK0zwv68A0",
+          "name": "VIET Restaurant Hanoi",
+          "start_time": "19:02",
+          "duration_hours": 1.0,
+          "time_block": "dinner",
+          "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9,
+          "score": 0.969,
+          "transport_to_next": "bike",
+          "distance_to_next_km": 2.63,
+          "travel_time_hours": 0.18
+        },
+        {
+          "place_id": "ChIJjbhqO3SrNTER1l3vLb6MhPs",
+          "name": "Hanoi Hotel",
+          "start_time": "22:00",
+          "duration_hours": 10,
+          "time_block": "night",
+          "types": [
+            "hotel",
+            "lodging",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.3,
+          "score": 0.5
+        }
+      ],
+      "total_distance_km": 4.03,
+      "estimated_cost": 121.32
+    }
+  ],
+  "total_cost_usd": 668.36,
+  "created_at": "2025-11-26T14:17:37.779497"
+}

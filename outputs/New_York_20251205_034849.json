@@ -1,0 +1,1051 @@
+{
+  "destination": "New York",
+  "duration_days": 3,
+  "user_preferences": {
+    "interests": [
+      "culture",
+      "accommodation",
+      "food",
+      "landmarks"
+    ],
+    "budget_range": "medium",
+    "travel_party": "solo",
+    "accommodation_type": "hotel"
+  },
+  "daily_itineraries": [
+    {
+      "day_number": 1,
+      "date": "2025-12-05",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "07:00",
+                "departure_time": "07:45",
+                "visit_duration_hours": 0.75
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 0.75,
+            "total_cost_usd": 0
+          }
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "success": true,
+          "reason": "Optimized 2 activities",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "08:04",
+                "departure_time": "09:04",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            },
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "09:09",
+                "departure_time": "10:09",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.0,
+                "travel_time_hours": 0.0,
+                "travel_time_minutes": 0.0,
+                "cost_usd": 0.0
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 1.92,
+            "total_travel_time_hours": 0.16,
+            "total_visit_time_hours": 2.0,
+            "total_cost_usd": 2.16
+          }
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "11:00",
+                "departure_time": "12:00",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0.0,
+            "total_visit_time_hours": 1.0,
+            "total_cost_usd": 0.0
+          }
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "success": true,
+          "reason": "Optimized 2 activities",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "13:04",
+                "departure_time": "14:19",
+                "visit_duration_hours": 1.25
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            },
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "14:24",
+                "departure_time": "15:39",
+                "visit_duration_hours": 1.25
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.0,
+                "travel_time_hours": 0.0,
+                "travel_time_minutes": 0.0,
+                "cost_usd": 0.0
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 1.92,
+            "total_travel_time_hours": 0.16,
+            "total_visit_time_hours": 2.5,
+            "total_cost_usd": 2.16
+          }
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "18:30",
+                "departure_time": "20:00",
+                "visit_duration_hours": 1.5
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0.0,
+            "total_visit_time_hours": 1.5,
+            "total_cost_usd": 0.0
+          }
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "success": true,
+          "reason": "Selected Brooklyn Bridge Park",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "20:30",
+                "departure_time": "21:30",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 1.0,
+            "total_cost_usd": 0
+          }
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "success": false,
+          "reason": "No hotels available",
+          "places": [],
+          "statistics": {
+            "total_score": 0,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 9.0,
+            "total_cost_usd": 0
+          }
+        }
+      ],
+      "summary": {
+        "total_places": 8,
+        "total_cost_usd": 4.32,
+        "total_score": 7.68
+      }
+    },
+    {
+      "day_number": 2,
+      "date": "2025-12-06",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "07:00",
+                "departure_time": "07:45",
+                "visit_duration_hours": 0.75
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 0.75,
+            "total_cost_usd": 0
+          }
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "success": true,
+          "reason": "Optimized 2 activities",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "08:04",
+                "departure_time": "09:04",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            },
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "09:09",
+                "departure_time": "10:09",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.0,
+                "travel_time_hours": 0.0,
+                "travel_time_minutes": 0.0,
+                "cost_usd": 0.0
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 1.92,
+            "total_travel_time_hours": 0.16,
+            "total_visit_time_hours": 2.0,
+            "total_cost_usd": 2.16
+          }
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "11:00",
+                "departure_time": "12:00",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0.0,
+            "total_visit_time_hours": 1.0,
+            "total_cost_usd": 0.0
+          }
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "success": true,
+          "reason": "Optimized 2 activities",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "13:04",
+                "departure_time": "14:19",
+                "visit_duration_hours": 1.25
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            },
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "14:24",
+                "departure_time": "15:39",
+                "visit_duration_hours": 1.25
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.0,
+                "travel_time_hours": 0.0,
+                "travel_time_minutes": 0.0,
+                "cost_usd": 0.0
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 1.92,
+            "total_travel_time_hours": 0.16,
+            "total_visit_time_hours": 2.5,
+            "total_cost_usd": 2.16
+          }
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "18:30",
+                "departure_time": "20:00",
+                "visit_duration_hours": 1.5
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0.0,
+            "total_visit_time_hours": 1.5,
+            "total_cost_usd": 0.0
+          }
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "success": true,
+          "reason": "Selected Brooklyn Bridge Park",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "20:30",
+                "departure_time": "21:30",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 1.0,
+            "total_cost_usd": 0
+          }
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "success": false,
+          "reason": "No hotels available",
+          "places": [],
+          "statistics": {
+            "total_score": 0,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 9.0,
+            "total_cost_usd": 0
+          }
+        }
+      ],
+      "summary": {
+        "total_places": 8,
+        "total_cost_usd": 4.32,
+        "total_score": 7.68
+      }
+    },
+    {
+      "day_number": 3,
+      "date": "2025-12-07",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "07:00",
+                "departure_time": "07:45",
+                "visit_duration_hours": 0.75
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 0.75,
+            "total_cost_usd": 0
+          }
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "success": true,
+          "reason": "Optimized 2 activities",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "08:04",
+                "departure_time": "09:04",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            },
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "09:09",
+                "departure_time": "10:09",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.0,
+                "travel_time_hours": 0.0,
+                "travel_time_minutes": 0.0,
+                "cost_usd": 0.0
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 1.92,
+            "total_travel_time_hours": 0.16,
+            "total_visit_time_hours": 2.0,
+            "total_cost_usd": 2.16
+          }
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "11:00",
+                "departure_time": "12:00",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0.0,
+            "total_visit_time_hours": 1.0,
+            "total_cost_usd": 0.0
+          }
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "success": true,
+          "reason": "Optimized 2 activities",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "13:04",
+                "departure_time": "14:19",
+                "visit_duration_hours": 1.25
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            },
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "14:24",
+                "departure_time": "15:39",
+                "visit_duration_hours": 1.25
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.0,
+                "travel_time_hours": 0.0,
+                "travel_time_minutes": 0.0,
+                "cost_usd": 0.0
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 1.92,
+            "total_travel_time_hours": 0.16,
+            "total_visit_time_hours": 2.5,
+            "total_cost_usd": 2.16
+          }
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "success": true,
+          "reason": "Selected Lindens (score: 0.960)",
+          "places": [
+            {
+              "place_id": "ChIJh-oPySxZwokRBTfrxwTdRo4",
+              "name": "Lindens",
+              "types": [
+                "american_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7245348,
+                "longitude": -74.0084684
+              },
+              "schedule": {
+                "arrival_time": "18:30",
+                "departure_time": "20:00",
+                "visit_duration_hours": 1.5
+              },
+              "score": 0.96,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.7,
+                "travel_time_hours": 0.08,
+                "travel_time_minutes": 4.8,
+                "cost_usd": 1.08
+              }
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0.0,
+            "total_visit_time_hours": 1.5,
+            "total_cost_usd": 0.0
+          }
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "success": true,
+          "reason": "Selected Brooklyn Bridge Park",
+          "places": [
+            {
+              "place_id": "ChIJjaFpo0ZawokRBcOFUZ13CaE",
+              "name": "Brooklyn Bridge Park",
+              "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+              ],
+              "rating": 4.8,
+              "location": {
+                "latitude": 40.7022422,
+                "longitude": -73.9958601
+              },
+              "schedule": {
+                "arrival_time": "20:30",
+                "departure_time": "21:30",
+                "visit_duration_hours": 1.0
+              },
+              "score": 0.96
+            }
+          ],
+          "statistics": {
+            "total_score": 0.96,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 1.0,
+            "total_cost_usd": 0
+          }
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "success": false,
+          "reason": "No hotels available",
+          "places": [],
+          "statistics": {
+            "total_score": 0,
+            "total_travel_time_hours": 0,
+            "total_visit_time_hours": 9.0,
+            "total_cost_usd": 0
+          }
+        }
+      ],
+      "summary": {
+        "total_places": 8,
+        "total_cost_usd": 4.32,
+        "total_score": 7.68
+      }
+    }
+  ],
+  "summary": {
+    "total_days": 3,
+    "total_places": 24,
+    "total_cost_usd": 12.96
+  },
+  "created_at": "2025-12-05T03:48:48.251930",
+  "timeblock_configuration": {
+    "timeblocks": {
+      "meals": {
+        "breakfast": {
+          "start": "07:00",
+          "end": "08:00"
+        },
+        "lunch": {
+          "start": "11:00",
+          "end": "13:00"
+        },
+        "dinner": {
+          "start": "18:30",
+          "end": "20:30"
+        }
+      },
+      "activities": {
+        "morning": {
+          "start": "08:00",
+          "end": "11:00"
+        },
+        "afternoon": {
+          "start": "13:00",
+          "end": "18:30"
+        },
+        "evening": {
+          "start": "20:30",
+          "end": "22:00"
+        }
+      },
+      "rest": {
+        "hotel": {
+          "start": "22:00",
+          "end": "07:00"
+        }
+      }
+    }
+  }
+}

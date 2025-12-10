@@ -1,0 +1,657 @@
+{
+  "destination": "New Delhi",
+  "duration_days": 3,
+  "user_preferences": {
+    "interests": [
+      "food",
+      "landmarks",
+      "culture",
+      "accommodation"
+    ],
+    "budget_range": "medium",
+    "travel_party": "solo",
+    "accommodation_type": "hotel"
+  },
+  "daily_itineraries": [
+    {
+      "day_number": 1,
+      "date": "2025-12-05",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": [
+            {
+              "place_id": "ChIJUaDHsL79DDkRVbcOvhjjoAE",
+              "name": "1911 Restaurant",
+              "rating": 4.5,
+              "avg_price_usd": 5.0,
+              "arrival_time": "07:00",
+              "departure_time": "07:45",
+              "visit_duration_hours": 0.75,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.05,
+                "travel_time_hours": 0.21,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJ9-0hUADjDDkRECcBXinAmMw",
+              "name": "Six R Circle",
+              "rating": 5.0,
+              "avg_price_usd": 4.0,
+              "arrival_time": "08:12",
+              "departure_time": "09:12",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.79,
+                "travel_time_hours": 0.08,
+                "cost_usd": 1.11
+              }
+            },
+            {
+              "place_id": "ChIJMehy9-ziDDkRjvQMZZST78U",
+              "name": "Bada Gumbad",
+              "rating": 4.5,
+              "avg_price_usd": 6.0,
+              "arrival_time": "09:17",
+              "departure_time": "10:17",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.13,
+                "travel_time_hours": 0.09,
+                "cost_usd": 1.25
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJO5BCXDf9DDkRICL3HR_Jge4",
+              "name": "Tamra Restaurant",
+              "rating": 4.4,
+              "avg_price_usd": 60.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.0,
+                "travel_time_hours": 0.2,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": [
+            {
+              "place_id": "ChIJWQ9V4kn9DDkRsAy2dYHprgw",
+              "name": "Kwality",
+              "rating": 4.4,
+              "avg_price_usd": 60.0,
+              "arrival_time": "13:12",
+              "departure_time": "14:27",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.91,
+                "travel_time_hours": 0.14,
+                "cost_usd": 1.97
+              }
+            },
+            {
+              "place_id": "ChIJo3woVR3jDDkR6O-olj2w4Hk",
+              "name": "Dargah Hazrat Nizamuddin Aulia",
+              "rating": 4.6,
+              "avg_price_usd": 4.0,
+              "arrival_time": "14:35",
+              "departure_time": "15:50",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.9,
+                "travel_time_hours": 0.11,
+                "cost_usd": 1.56
+              }
+            },
+            {
+              "place_id": "ChIJyXpGpiz9DDkRVmEP8X1Nt9k",
+              "name": "Baba Banda Singh Bahadur Statue",
+              "rating": 4.6,
+              "avg_price_usd": 7.0,
+              "arrival_time": "15:57",
+              "departure_time": "17:12",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.14,
+                "travel_time_hours": 0.09,
+                "cost_usd": 1.26
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJrftS5w4DDTkRYK76hi0Ujag",
+              "name": "White Oak Restaurant",
+              "rating": 4.7,
+              "avg_price_usd": 15.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 6.54,
+                "travel_time_hours": 0.19,
+                "cost_usd": 2.62
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJodgF9j8dDTkRPbnohH9HcZo",
+              "name": "Bukhara",
+              "rating": 4.5,
+              "avg_price_usd": 288.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.35,
+                "travel_time_hours": 0.07,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJe4zp0KMdDTkRm90YLrHBVg8",
+              "name": "Taj Palace, New Delhi",
+              "rating": 4.7,
+              "avg_price_usd": 23.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 10,
+        "places_cost_usd": 472.0,
+        "transport_cost_usd": 7.15,
+        "total_cost_usd": 479.15
+      }
+    },
+    {
+      "day_number": 2,
+      "date": "2025-12-06",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": [
+            {
+              "place_id": "ChIJUaDHsL79DDkRVbcOvhjjoAE",
+              "name": "1911 Restaurant",
+              "rating": 4.5,
+              "avg_price_usd": 5.0,
+              "arrival_time": "07:00",
+              "departure_time": "07:45",
+              "visit_duration_hours": 0.75,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.05,
+                "travel_time_hours": 0.21,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJ9-0hUADjDDkRECcBXinAmMw",
+              "name": "Six R Circle",
+              "rating": 5.0,
+              "avg_price_usd": 4.0,
+              "arrival_time": "08:12",
+              "departure_time": "09:12",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.79,
+                "travel_time_hours": 0.08,
+                "cost_usd": 1.11
+              }
+            },
+            {
+              "place_id": "ChIJMehy9-ziDDkRjvQMZZST78U",
+              "name": "Bada Gumbad",
+              "rating": 4.5,
+              "avg_price_usd": 6.0,
+              "arrival_time": "09:17",
+              "departure_time": "10:17",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.13,
+                "travel_time_hours": 0.09,
+                "cost_usd": 1.25
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJO5BCXDf9DDkRICL3HR_Jge4",
+              "name": "Tamra Restaurant",
+              "rating": 4.4,
+              "avg_price_usd": 60.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.0,
+                "travel_time_hours": 0.2,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": [
+            {
+              "place_id": "ChIJWQ9V4kn9DDkRsAy2dYHprgw",
+              "name": "Kwality",
+              "rating": 4.4,
+              "avg_price_usd": 60.0,
+              "arrival_time": "13:12",
+              "departure_time": "14:27",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.91,
+                "travel_time_hours": 0.14,
+                "cost_usd": 1.97
+              }
+            },
+            {
+              "place_id": "ChIJo3woVR3jDDkR6O-olj2w4Hk",
+              "name": "Dargah Hazrat Nizamuddin Aulia",
+              "rating": 4.6,
+              "avg_price_usd": 4.0,
+              "arrival_time": "14:35",
+              "departure_time": "15:50",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.9,
+                "travel_time_hours": 0.11,
+                "cost_usd": 1.56
+              }
+            },
+            {
+              "place_id": "ChIJyXpGpiz9DDkRVmEP8X1Nt9k",
+              "name": "Baba Banda Singh Bahadur Statue",
+              "rating": 4.6,
+              "avg_price_usd": 7.0,
+              "arrival_time": "15:57",
+              "departure_time": "17:12",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.14,
+                "travel_time_hours": 0.09,
+                "cost_usd": 1.26
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJrftS5w4DDTkRYK76hi0Ujag",
+              "name": "White Oak Restaurant",
+              "rating": 4.7,
+              "avg_price_usd": 15.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 6.54,
+                "travel_time_hours": 0.19,
+                "cost_usd": 2.62
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJodgF9j8dDTkRPbnohH9HcZo",
+              "name": "Bukhara",
+              "rating": 4.5,
+              "avg_price_usd": 288.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.35,
+                "travel_time_hours": 0.07,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJe4zp0KMdDTkRm90YLrHBVg8",
+              "name": "Taj Palace, New Delhi",
+              "rating": 4.7,
+              "avg_price_usd": 23.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 10,
+        "places_cost_usd": 472.0,
+        "transport_cost_usd": 9.42,
+        "total_cost_usd": 481.42
+      }
+    },
+    {
+      "day_number": 3,
+      "date": "2025-12-07",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": [
+            {
+              "place_id": "ChIJUaDHsL79DDkRVbcOvhjjoAE",
+              "name": "1911 Restaurant",
+              "rating": 4.5,
+              "avg_price_usd": 5.0,
+              "arrival_time": "07:00",
+              "departure_time": "07:45",
+              "visit_duration_hours": 0.75,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.05,
+                "travel_time_hours": 0.21,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJ9-0hUADjDDkRECcBXinAmMw",
+              "name": "Six R Circle",
+              "rating": 5.0,
+              "avg_price_usd": 4.0,
+              "arrival_time": "08:12",
+              "departure_time": "09:12",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.79,
+                "travel_time_hours": 0.08,
+                "cost_usd": 1.11
+              }
+            },
+            {
+              "place_id": "ChIJMehy9-ziDDkRjvQMZZST78U",
+              "name": "Bada Gumbad",
+              "rating": 4.5,
+              "avg_price_usd": 6.0,
+              "arrival_time": "09:17",
+              "departure_time": "10:17",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.13,
+                "travel_time_hours": 0.09,
+                "cost_usd": 1.25
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJO5BCXDf9DDkRICL3HR_Jge4",
+              "name": "Tamra Restaurant",
+              "rating": 4.4,
+              "avg_price_usd": 60.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.0,
+                "travel_time_hours": 0.2,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": [
+            {
+              "place_id": "ChIJWQ9V4kn9DDkRsAy2dYHprgw",
+              "name": "Kwality",
+              "rating": 4.4,
+              "avg_price_usd": 60.0,
+              "arrival_time": "13:12",
+              "departure_time": "14:27",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.91,
+                "travel_time_hours": 0.14,
+                "cost_usd": 1.97
+              }
+            },
+            {
+              "place_id": "ChIJo3woVR3jDDkR6O-olj2w4Hk",
+              "name": "Dargah Hazrat Nizamuddin Aulia",
+              "rating": 4.6,
+              "avg_price_usd": 4.0,
+              "arrival_time": "14:35",
+              "departure_time": "15:50",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.9,
+                "travel_time_hours": 0.11,
+                "cost_usd": 1.56
+              }
+            },
+            {
+              "place_id": "ChIJyXpGpiz9DDkRVmEP8X1Nt9k",
+              "name": "Baba Banda Singh Bahadur Statue",
+              "rating": 4.6,
+              "avg_price_usd": 7.0,
+              "arrival_time": "15:57",
+              "departure_time": "17:12",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 3.14,
+                "travel_time_hours": 0.09,
+                "cost_usd": 1.26
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJrftS5w4DDTkRYK76hi0Ujag",
+              "name": "White Oak Restaurant",
+              "rating": 4.7,
+              "avg_price_usd": 15.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 6.54,
+                "travel_time_hours": 0.19,
+                "cost_usd": 2.62
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJodgF9j8dDTkRPbnohH9HcZo",
+              "name": "Bukhara",
+              "rating": 4.5,
+              "avg_price_usd": 288.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.35,
+                "travel_time_hours": 0.07,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJe4zp0KMdDTkRm90YLrHBVg8",
+              "name": "Taj Palace, New Delhi",
+              "rating": 4.7,
+              "avg_price_usd": 23.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 10,
+        "places_cost_usd": 472.0,
+        "transport_cost_usd": 9.42,
+        "total_cost_usd": 481.42
+      }
+    }
+  ],
+  "summary": {
+    "total_days": 3,
+    "total_places": 30,
+    "places_cost_usd": 1416.0,
+    "transport_cost_usd": 25.99,
+    "total_cost_usd": 1441.99
+  },
+  "created_at": "2025-12-05T16:12:38.107510",
+  "timeblock_configuration": {
+    "timeblocks": {
+      "meals": {
+        "breakfast": {
+          "start": "07:00",
+          "end": "08:00"
+        },
+        "lunch": {
+          "start": "11:00",
+          "end": "13:00"
+        },
+        "dinner": {
+          "start": "18:30",
+          "end": "20:30"
+        }
+      },
+      "activities": {
+        "morning": {
+          "start": "08:00",
+          "end": "11:00"
+        },
+        "afternoon": {
+          "start": "13:00",
+          "end": "18:30"
+        },
+        "evening": {
+          "start": "20:30",
+          "end": "22:00"
+        }
+      },
+      "rest": {
+        "hotel": {
+          "start": "22:00",
+          "end": "07:00"
+        }
+      }
+    }
+  }
+}
