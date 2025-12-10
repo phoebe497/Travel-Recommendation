@@ -1,0 +1,18 @@
+{
+  "city": "Ho Chi Minh City",
+  "num_days": 3,
+  "num_places": 60,
+  "num_scheduled_places": 30,
+  "total_cost_usd": 657.87,
+  "timings": {
+    "1_load_places": 2.3789072036743164,
+    "2_bert_embeddings": 15.695415258407593,
+    "3_hybrid_scoring": 0.007169008255004883,
+    "4_graph_building": 0.011232376098632812,
+    "5_scheduling": 2.156437873840332,
+    "6_route_optimization": 0.013021230697631836,
+    "total_recommendation_time": 20.266753673553467
+  },
+  "throughput_places_per_second": 2.9605136059997275,
+  "timestamp": "2025-12-07T21:30:46.059479"
+}

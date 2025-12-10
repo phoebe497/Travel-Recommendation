@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # API Service
+  api:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    container_name: travel-api
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/
+      - MONGODB_DB=smart_travel
+      - DEBUG=false
+      - BERT_CACHE_DIR=/app/cache/bert_embeddings
+    volumes:
+      - bert_cache:/app/cache/bert_embeddings
+    depends_on:
+      - mongo
+    restart: unless-stopped
+    networks:
+      - travel-network
+
+  # MongoDB Service
+  mongo:
+    image: mongo:6.0
+    container_name: travel-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    networks:
+      - travel-network
+
+  # Optional: Mongo Express (Web UI for MongoDB)
+  mongo-express:
+    image: mongo-express:latest
+    container_name: travel-mongo-express
+    ports:
+      - "8081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_URL=mongodb://mongo:27017/
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=admin123
+    depends_on:
+      - mongo
+    restart: unless-stopped
+    networks:
+      - travel-network
+
+volumes:
+  mongo_data:
+    driver: local
+  bert_cache:
+    driver: local
+
+networks:
+  travel-network:
+    driver: bridge

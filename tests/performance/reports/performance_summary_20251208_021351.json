@@ -1,0 +1,24 @@
+{
+  "city": "Ho Chi Minh City",
+  "timestamp": "2025-12-08T02:12:30.325408",
+  "tests": {
+    "speed_benchmark": {
+      "status": "success",
+      "summary": {
+        "total_time": 23.287376165390015,
+        "num_places": 60,
+        "throughput": 2.5765032339355063
+      }
+    },
+    "recommendation_evaluation": {
+      "status": "success",
+      "summary": {
+        "num_users": 4,
+        "precision": 0.225,
+        "recall_pod": 0.3,
+        "f1_score": 0.253125,
+        "far": 0.334375
+      }
+    }
+  }
+}

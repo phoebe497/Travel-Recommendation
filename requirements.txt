@@ -1,0 +1,31 @@
+# Core dependencies for Smart Travel Recommendation System
+
+# Database
+pymongo==4.6.1
+dnspython==2.4.2
+
+# Data processing and numerical computation
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.2
+scipy==1.11.4
+
+# Machine Learning
+implicit==0.7.2  # For Matrix Factorization
+sentence-transformers==2.7.0  # Multilingual BERT embeddings (paraphrase-multilingual-mpnet-base-v2)
+torch>=2.1.2  # PyTorch for sentence-transformers (CPU version)
+
+# API requests
+requests==2.31.0
+
+# Configuration
+python-dotenv==1.0.0
+
+# Date and time handling
+python-dateutil==2.8.2
+
+# JSON handling (built-in, but explicitly noted)
+# json - built-in
+
+# Typing extensions for better type hints
+typing-extensions==4.9.0

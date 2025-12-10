@@ -1,0 +1,76 @@
+{
+  "single_benchmark": {
+    "city": "Ho Chi Minh City",
+    "num_days": 3,
+    "num_places": 60,
+    "num_scheduled_places": 30,
+    "total_cost_usd": 657.87,
+    "timings": {
+      "1_load_places": 1.976123332977295,
+      "2_bert_embeddings": 19.001426219940186,
+      "3_hybrid_scoring": 0.0051310062408447266,
+      "4_graph_building": 0.016012907028198242,
+      "5_scheduling": 2.269383668899536,
+      "6_route_optimization": 0.015001058578491211,
+      "total_recommendation_time": 23.287376165390015
+    },
+    "throughput_places_per_second": 2.5765032339355063,
+    "timestamp": "2025-12-08T02:13:13.942432"
+  },
+  "scalability_benchmark": [
+    {
+      "city": "Ho Chi Minh City",
+      "num_days": 3,
+      "num_places": 50,
+      "num_scheduled_places": 30,
+      "total_cost_usd": 532.3499999999999,
+      "timings": {
+        "1_load_places": 1.8225512504577637,
+        "2_bert_embeddings": 5.494096040725708,
+        "3_hybrid_scoring": 0.005812644958496094,
+        "4_graph_building": 0.010480403900146484,
+        "5_scheduling": 2.283684253692627,
+        "6_route_optimization": 0.031642913818359375,
+        "total_recommendation_time": 9.652431964874268
+      },
+      "throughput_places_per_second": 5.180041691249704,
+      "timestamp": "2025-12-08T02:13:23.854181"
+    },
+    {
+      "city": "Ho Chi Minh City",
+      "num_days": 3,
+      "num_places": 60,
+      "num_scheduled_places": 30,
+      "total_cost_usd": 657.87,
+      "timings": {
+        "1_load_places": 1.9557223320007324,
+        "2_bert_embeddings": 4.419223308563232,
+        "3_hybrid_scoring": 0.006689786911010742,
+        "4_graph_building": 0.039968013763427734,
+        "5_scheduling": 2.401385545730591,
+        "6_route_optimization": 0.013162851333618164,
+        "total_recommendation_time": 8.841053485870361
+      },
+      "throughput_places_per_second": 6.786521549257801,
+      "timestamp": "2025-12-08T02:13:32.950706"
+    },
+    {
+      "city": "Ho Chi Minh City",
+      "num_days": 3,
+      "num_places": 60,
+      "num_scheduled_places": 30,
+      "total_cost_usd": 657.87,
+      "timings": {
+        "1_load_places": 2.126821517944336,
+        "2_bert_embeddings": 4.918244123458862,
+        "3_hybrid_scoring": 0.006490468978881836,
+        "4_graph_building": 0.011389732360839844,
+        "5_scheduling": 2.302678108215332,
+        "6_route_optimization": 0.013164043426513672,
+        "total_recommendation_time": 9.38245677947998
+      },
+      "throughput_places_per_second": 6.394913550918108,
+      "timestamp": "2025-12-08T02:13:42.562392"
+    }
+  ]
+}
