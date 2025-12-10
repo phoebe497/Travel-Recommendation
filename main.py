@@ -98,8 +98,13 @@ def generate_tour_example():
         # Step 3: Train recommender with historical data (if hybrid scoring enabled)
         logger.info("\n3. Preparing recommender system...")
         if planner.use_hybrid_scoring:
-            planner.recommender.train_models()
-            logger.info("   ✓ BERT+SVD models trained")
+            # Train collaborative filter with user-place interactions
+            interactions = planner.db.get_tour_interactions_for_collaborative_filter()
+            if interactions:
+                planner.recommender.train_collaborative_filter(interactions)
+                logger.info(f"   ✓ SVD model trained with {len(interactions)} interactions")
+            else:
+                logger.warning("   ⚠ No interactions found, using content-based only")
         else:
             logger.info("   ✓ Using rating-based scoring")
         
@@ -127,25 +132,19 @@ def generate_tour_example():
             logger.info(f"  Estimated Cost: ${day.get_total_cost():.2f}")
             logger.info(f"  Total Score: {day.get_total_score():.3f}")
             
-            # Display by time blocks
-            for block_type, scheduled_places in [
-                ('breakfast', day.breakfast),
-                ('morning', day.morning_activities),
-                ('lunch', day.lunch),
-                ('afternoon', day.afternoon_activities),
-                ('evening', day.evening_activities)
-            ]:
-                if scheduled_places:
-                    logger.info(f"\n  [{block_type.upper()}]")
-                    for i, sp in enumerate(scheduled_places, 1):
+            # Display blocks
+            for block in day.blocks:
+                if block.scheduled_places:
+                    logger.info(f"\n  [{block.block.block_type.value.upper()}] {block.block.format_time_range()}")
+                    for i, sp in enumerate(block.scheduled_places, 1):
                         place = sp.place
                         logger.info(f"    {i}. {place.name}")
-                        logger.info(f"       Time: {sp.start_time} ({sp.duration_hours:.1f}h)")
+                        logger.info(f"       Time: {sp.arrival_time.strftime('%H:%M')} - {sp.departure_time.strftime('%H:%M')} ({sp.visit_duration_hours:.1f}h)")
                         logger.info(f"       Rating: {place.rating}/5.0")
                         if sp.score:
                             logger.info(f"       Score: {sp.score:.3f}")
                         if sp.transport_to_next:
-                            logger.info(f"       → {sp.transport_to_next}: {sp.travel_time_hours*60:.0f} min")
+                            logger.info(f"       → {sp.transport_to_next}: {sp.travel_time_to_next_hours*60:.0f} min")
         
         # Step 6: Save tour to database (optional)
         logger.info("\n6. Saving itinerary to database...")
@@ -153,6 +152,9 @@ def generate_tour_example():
             tour_dict = tour.to_dict()
             db_id = planner.db.create_tour(tour_dict)
             logger.info(f"   Itinerary saved with ID: {db_id}")
+        except Exception as e:
+            logger.warning(f"   Failed to save to database: {e}")
+        
         # Step 7: Export to JSON with timestamp and city name
         logger.info("\n7. Exporting itinerary to JSON...")
         

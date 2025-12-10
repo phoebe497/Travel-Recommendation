@@ -214,18 +214,21 @@ class ItineraryBuilder:
         
         # Build each day
         previous_hotel = None
+        visited_across_days = set()  # Track visited places across ALL days (except hotels)
         
         for day_num in range(1, user_pref.trip_duration_days + 1):
             current_date = start_date + timedelta(days=day_num - 1)
             
             logger.info(f"Planning day {day_num}/{user_pref.trip_duration_days}")
+            logger.info(f"  Places used so far (non-hotel): {len(visited_across_days)}")
             
             day_itinerary = self._build_day_itinerary(
                 day_num=day_num,
                 current_date=current_date,
                 user_pref=user_pref,
                 previous_hotel=previous_hotel,
-                hybrid_scores=hybrid_scores
+                hybrid_scores=hybrid_scores,
+                visited_across_days=visited_across_days
             )
             
             tour.daily_itineraries.append(day_itinerary)
@@ -251,7 +254,8 @@ class ItineraryBuilder:
         current_date: date,
         user_pref: UserPreference,
         previous_hotel: Optional[Place],
-        hybrid_scores: Optional[Dict[str, float]]
+        hybrid_scores: Optional[Dict[str, float]],
+        visited_across_days: set
     ) -> DayItinerary:
         """Build itinerary for a single day"""
         
@@ -298,11 +302,13 @@ class ItineraryBuilder:
             if TimeBlockConfig.is_activity_block(block.block_type):
                 candidates = [p for p in candidates if not PlaceFilter.is_hotel(p)]
             
-            # Filter out already visited places TODAY (except hotels)
+            # Filter out already visited places ACROSS ALL DAYS (except hotels can repeat)
             if not TimeBlockConfig.is_rest_block(block.block_type):
                 candidates = [p for p in candidates if p.place_id not in visited_today]
+                # Also filter across days for non-hotel places
+                candidates = [p for p in candidates if p.place_id not in visited_across_days]
             
-            logger.info(f"    Found {len(candidates)} candidates")
+            logger.info(f"    Found {len(candidates)} candidates (after filtering visited)")
             
             # Schedule the block
             block_schedule = self.scheduler.schedule_block(
@@ -316,6 +322,7 @@ class ItineraryBuilder:
             if block_schedule.scheduled_places and not TimeBlockConfig.is_rest_block(block.block_type):
                 for sp in block_schedule.scheduled_places:
                     visited_today.add(sp.place.place_id)
+                    visited_across_days.add(sp.place.place_id)  # Track across all days
             
             day_itinerary.blocks.append(block_schedule)
             
